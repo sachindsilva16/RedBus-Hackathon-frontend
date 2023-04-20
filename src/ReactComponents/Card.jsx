@@ -1,8 +1,22 @@
 import React from "react";
 
-function Card(){
+function Card(props){
     return (
-        <h1>This is a card</h1>
+       <div className={props.stylings1}>
+
+        {/* Heading Section of Card  */}
+
+
+       <h1 className="text-2xl font-bold text-white ">{props.cardHeading}</h1>
+
+
+       {/* Sensor Data ---> fetching from backend  */}
+
+
+       {/* Description about the Sensor  */}
+
+        <div className="motion-safe:animate-fadeIn3s text-gray-400 opacity-90">{props.cardDescription}</div>
+       </div>
     );
 }
 
