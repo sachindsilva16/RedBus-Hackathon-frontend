@@ -5,7 +5,7 @@ function CardComponents() {
     return (
         <div>
             {/* Card 1 */}
-            <Card stylings1="motion-safe:animate-fadeIn1s flex items-center flex-col m-2 px-4 py-8 space-y-4 shadow-sm shadow-blue-500 mt-4" cardHeading="This is Card 1" cardDescription="Card 1 Description" />
+            <Card stylings1="motion-safe:animate-fadeIn1s flex items-center flex-col m-2 px-4 py-8 space-y-4 shadow-sm shadow-blue-500 mt-4 " cardHeading="This is Card 1" cardDescription="Card 1 Description" />
 
 
             {/* Card 2 */}
